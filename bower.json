@@ -1,0 +1,28 @@
+{
+  "name": "mta-viz",
+  "version": "0.0.1",
+  "authors": [
+    "Chris Hogan <chris@hogan.io>"
+  ],
+  "description": "just for fun",
+  "main": "app.js",
+  "keywords": [
+    "angular",
+    "d3"
+  ],
+  "license": "MIT",
+  "homepage": "https://hoganmaps.github.io/mta-viz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "ui-router": ">=0.2.15",
+    "angular-bootstrap": "~0.13.0",
+    "bootswatch": "~3.3.5",
+    "d3": "~3.5.5"
+  }
+}
