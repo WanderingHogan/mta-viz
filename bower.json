@@ -19,10 +19,19 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.1",
-    "ui-router": ">=0.2.15",
-    "angular-bootstrap": "~0.13.0",
-    "bootswatch": "~3.3.5",
-    "d3": "~3.5.5"
+    "angular": "1.4.3",
+    "ui-router": "0.2.15",
+    "angular-bootstrap": "0.13.1",
+    "bootswatch": "3.3.5",
+    "d3": "3.5.5",
+    "angular-nvd3":"0.1.1",
+    "nvd3": "1.8.1",
+    "underscore":"1.8.3",
+    "moment":"2.10.6"
+  },
+  "resolutions":{
+    "angular":"1.4.3",
+    "d3": "3.5.5",
+    "nvd3": "1.8.1"
   }
 }

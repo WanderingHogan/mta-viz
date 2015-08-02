@@ -1,21 +1,46 @@
 <div class="container">
-  <!-- Example row of columns -->
-
   <div class="row">
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    <!-- <div class="col-md-3">
+      <h2>filter</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <label>Start Date</label>
+        </div>
+        <div class="col-md-5">
+          <select class="form-control" ng-model="startMonth">
+            <option ng-repeat="month in months">{{month}}</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <select class="form-control" ng-model="startYear">
+            <option ng-repeat="year in years">{{year}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <label>End Date</label>
+        </div>
+        <div class="col-md-5">
+          <select class="form-control" ng-model="endMonth">
+            <option ng-repeat="month in months">{{month}}</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <select class="form-control" ng-model="endYear">
+            <option ng-repeat="year in years">{{year}}</option>
+          </select>
+        </div>
+      </div>
+      <a href="#" class="btn btn-default" ng-click="filterData()">Filter</a>
+      <a href="#" class="btn btn-default">Clear</a>
+    </div> -->
+    <div class="col-md-12">
+      <h2>about</h2>
+      <p>Data are provided by the Maryland Transit Administration (MTA). This data set includes total trips taken by bus, metro, rail, and mobility/paratransit services. Beginning in FY2014, the Maryland Transit Administration (MTA) began counting Core Bus ridership using an Automated Passenger Count (APC) system to better track the number of people boarding and leaving the buses. In order to maintain the integrity of historical comparisons for the Transit Ridership Goal, the MTA used ridership estimate differences between the new APC system and previous counting estimates for its Bus Service to allow for apples-to-apples comparisons between fiscal years.</p>
+      <p>The data can be viewed <a href="https://data.maryland.gov/Transportation/MTA-Average-Weekday-Ridership-by-Month/ub96-xxqw?" target="_blank">here</a>.</p>
+      <p>This was built with awesome open source tools including Angular (and angular bootstrap, angular-ui-router), d3js, nvd3, bootswatch, underscore, and moment.</p>
+      <p>The code is rough, but you can check the <a href="https://github.com/hoganmaps/mta-viz" target="_blank">github repo</a>. Filters will probably be coming soon.</p>
    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <line-chart in-data="riderdata"></line-chart>
   </div>
+</div>
