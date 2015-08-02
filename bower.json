@@ -24,7 +24,7 @@
     "angular-bootstrap": "0.13.1",
     "bootswatch": "3.3.5",
     "d3": "3.5.5",
-    "angular-nvd3":"0.1.1",
+    "angular-nvd3":"1.0.0-rc.2",
     "nvd3": "1.8.1",
     "underscore":"1.8.3",
     "moment":"2.10.6"
